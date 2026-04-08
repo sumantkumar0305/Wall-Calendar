@@ -35,7 +35,7 @@ A beautifully crafted React.js + Material UI web app inspired by physical wall c
 ## 📁 Project Structure
 
 ```
-wall-calendar/
+Frontend_code/
 ├── public/
 │   └── index.html
 ├── src/
