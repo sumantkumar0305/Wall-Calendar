@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import CloseIcon from '@mui/icons-material/Close';
-import { formatDateDisplay, rangeDayCount } from '../../utils/dateUtils';
+import { formatDateDisplay } from '../utils/dateUtils';
 
 function RangeSummary({ startDate, endDate, onReset }) {
   const hasStart = !!startDate;

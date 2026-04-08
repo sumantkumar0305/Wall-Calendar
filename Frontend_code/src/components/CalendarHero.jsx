@@ -4,8 +4,8 @@
 
 import React, { useState } from 'react';
 import { Box, Typography, Skeleton } from '@mui/material';
-import { MONTH_NAMES } from '../../utils/dateUtils';
-import { getHeroForMonth } from '../../data/heroImages';
+import { MONTH_NAMES } from '../utils/dateUtils';
+import { getHeroForMonth } from '../data/heroImages';
 
 function CalendarHero({ month, year }) {
   const [imgLoaded, setImgLoaded] = useState(false);

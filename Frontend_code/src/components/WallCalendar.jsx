@@ -4,7 +4,7 @@
 
 import React, { useState, useCallback } from 'react';
 import { Box, Paper } from '@mui/material';
-import { isSameDay } from '../../utils/dateUtils';
+import { isSameDay } from '../utils/dateUtils';
 import WallCalendarHeader from './WallCalendarHeader';
 import CalendarHero from './CalendarHero';
 import MonthNavigator from './MonthNavigator';

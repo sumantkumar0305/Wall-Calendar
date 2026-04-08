@@ -3,8 +3,8 @@
 
 import React, { useMemo } from 'react';
 import { Box, Typography } from '@mui/material';
-import { generateCalendarCells } from '../../utils/calendarUtils';
-import { DAY_HEADERS } from '../../utils/dateUtils';
+import { DAY_HEADERS } from '../utils/dateUtils';
+import { generateCalendarCells } from '../utils/calendarUtils';
 import DayCell from './DayCell';
 
 function CalendarGrid({ year, month, startDate, endDate, onDayClick }) {

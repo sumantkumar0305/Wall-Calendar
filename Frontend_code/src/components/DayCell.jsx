@@ -9,8 +9,8 @@ import {
   isBetween,
   isToday,
   isWeekend,
-} from '../../utils/dateUtils';
-import { getHoliday } from '../../data/holidays';
+} from '../utils/dateUtils';
+import { getHoliday } from '../data/holidays';
 
 function DayCell({ date, dayNumber, startDate, endDate, onClick }) {
   const holiday = useMemo(() => getHoliday(date), [date]);

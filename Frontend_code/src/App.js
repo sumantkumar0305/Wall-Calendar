@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider, CssBaseline, Box } from '@mui/material';
 import theme from './theme';
-import WallCalendar from './components/WallCalendar/WallCalendar';
+import WallCalendar from './components/WallCalendar'
 
 function App() {
   return (

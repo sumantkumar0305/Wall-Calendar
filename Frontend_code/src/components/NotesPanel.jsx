@@ -20,8 +20,8 @@ import {
   saveNote,
   loadNote,
   clearNote,
-} from '../../utils/storageUtils';
-import { formatDateKey } from '../../utils/dateUtils';
+} from '../utils/storageUtils';
+import { formatDateKey } from '../utils/dateUtils';
 
 function NotesPanel({ startDate, endDate }) {
   const [noteText, setNoteText] = useState('');
